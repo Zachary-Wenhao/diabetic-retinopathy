@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Eye Screening Report - Patient 2cf18033da31</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.8;
+            font-size: 14px;
+        }
+        .header {
+            background-color: #2196F3;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+        .patient-info {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 12px;
+            margin: 10px 0;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #555;
+        }
+        .result-box {
+            background-color: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 5px;
+        }
+        .result-box h2 {
+            margin: 0 0 10px 0;
+            color: #2e7d32;
+        }
+        .diagnosis {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2e7d32;
+            margin: 10px 0;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1976d2;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #2196F3;
+        }
+        .image-container {
+            text-align: center;
+            margin: 25px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+        .image-caption {
+            color: #666;
+            font-size: 13px;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .explanation-box {
+            background-color: #fafafa;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+            margin: 20px 0;
+            font-family: Georgia, serif;
+            line-height: 1.8;
+        }
+        .explanation-section {
+            margin: 20px 0;
+        }
+        .section-header {
+            color: #1976d2;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 15px 0 10px 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e3f2fd;
+        }
+        .explanation-paragraph {
+            margin: 12px 0;
+            line-height: 1.7;
+            color: #333;
+        }
+        .explanation-list {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        .explanation-list li {
+            margin: 8px 0;
+            padding: 8px 0;
+            line-height: 1.6;
+        }
+        .list-icon {
+            font-weight: bold;
+            margin-right: 8px;
+            font-size: 16px;
+        }
+        .positive-result {
+            color: #2e7d32;
+            font-weight: bold;
+            background-color: #e8f5e9;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .warning-result {
+            color: #d84315;
+            font-weight: bold;
+            background-color: #fff3e0;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .confidence-text {
+            background-color: #e3f2fd;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            color: #1976d2;
+        }
+        .important-note {
+            background-color: #fff8e1;
+            border: 2px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+        .important-note strong {
+            color: #f57c00;
+        }
+        ul {
+            line-height: 2;
+            margin: 10px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ddd;
+            color: #777;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Diabetic Retinopathy Screening Report</h1>
+        <p style="margin: 5px 0; font-size: 16px;">Computer-Assisted Eye Disease Detection</p>
+        <p style="margin: 5px 0;">Generated on November 25, 2025 at 06:17 PM</p>
+    </div>
+    
+    <div class="patient-info">
+        <h3 style="margin-top: 0; color: #333;">PATIENT INFORMATION</h3>
+        <div class="info-grid">
+            <div class="info-label">Patient ID:</div>
+            <div>2cf18033da31</div>
+            <div class="info-label">Age:</div>
+            <div>65 years</div>
+            <div class="info-label">Gender:</div>
+            <div>F</div>
+            <div class="info-label">Screening Date:</div>
+            <div>November 25, 2025</div>
+
+            <div class="info-label">True Diagnosis:</div>
+            <div>Class 0 (No DR)</div>
+
+        </div>
+    </div>
+    
+    <div class="result-box">
+        <h2>SCREENING RESULT</h2>
+
+        <div class="diagnosis">No DR</div>
+        <p style="font-size: 16px; margin: 10px 0;">
+            <strong>Confidence Level:</strong> 99%<br>
+            <span style="color: #666;">The computer is 99% confident about this result.</span>
+        </p>
+<p style="color: green; font-weight: bold;">✓ Prediction matches actual diagnosis</p>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">VISUAL EXPLANATION</div>
+
+        <div class="image-container">
+            <img src="patient1_simple_overlay.png" alt="Eye Analysis">
+            <p class="image-caption">Areas highlighted show where the computer focused its attention during analysis</p>
+        </div>
+
+    </div>
+    
+    <div class="section">
+        <div class="section-title">CONFIDENCE BREAKDOWN</div>
+
+        <div class="image-container">
+            <img src="patient1_confidence.png" alt="Confidence Chart">
+            <p class="image-caption">How confident the computer is for each disease level</p>
+        </div>
+
+    </div>
+    
+    <div class="section">
+        <div class="section-title">DETAILED EXPLANATION</div>
+        <div class="explanation-box">
+<p class="explanation-paragraph">Patient Information:</p>
+<ul class="explanation-list">
+<li><span class="list-icon">•</span> Age: 65 years old</li>
+<li><span class="list-icon">•</span> Gender: Female</li>
+<li><span class="list-icon">•</span> Screening Date: Today</li>
+</ul>
+<div class="explanation-section"><h3 class="section-header">WHAT WE FOUND</h3>
+<ul class="explanation-list">
+<li><span class="list-icon">✓</span> Good News: No Signs of Eye Disease Found</li>
+</ul>
+<p class="explanation-paragraph">The computer screening tool looked at your eye photo carefully. It checked your blood vessels and other parts of your eye. Everything looks healthy and normal.</p>
+<div class="explanation-section"><h3 class="section-header">HOW SURE IS THE COMPUTER?</h3>
+<p class="confidence-text">The computer is 99% confident about this result.</p>
+<p class="explanation-paragraph">This is a high confidence score. The computer is very sure about what it saw.</p>
+<div class="explanation-section"><h3 class="section-header">HOW THE COMPUTER ANALYZES YOUR EYE</h3>
+<p class="explanation-paragraph">The computer uses a technique called 'Grad-CAM' to highlight areas that help it make decisions. This shows which parts of your eye it focused on:</p>
+<ul class="explanation-list">
+<li><span class="list-icon">•</span> Blood vessels and their patterns</li>
+<li><span class="list-icon">•</span> Areas that might show bleeding or fluid leakage</li>
+<li><span class="list-icon">•</span> Changes in the retina structure</li>
+<li><span class="list-icon">•</span> Overall eye health indicators</li>
+</ul>
+<p class="explanation-paragraph">The colored highlight areas in your report show where the computer 'looked' most carefully.</p>
+<div class="explanation-section"><h3 class="section-header">WHAT TO DO NEXT</h3>
+<ul class="explanation-list">
+<li><span class="list-icon">✓</span> Come back for another screening in 1 year</li>
+<li><span class="list-icon">✓</span> Keep managing your diabetes with your regular doctor</li>
+<li><span class="list-icon">✓</span> Tell your doctor right away if your vision changes</li>
+<li><span class="list-icon">✓</span> Control your blood sugar, blood pressure, and cholesterol</li>
+</ul>
+<div class="explanation-section"><h3 class="section-header">IMPORTANT REMINDERS</h3>
+<ul class="explanation-list">
+<li><span class="list-icon">•</span> This is a SCREENING tool, not a final diagnosis</li>
+<li><span class="list-icon">•</span> Only a real eye doctor can give you a complete diagnosis</li>
+<li><span class="list-icon">•</span> This tool helps find people who need to see a specialist</li>
+<li><span class="list-icon">•</span> Even if the result is good, see an eye doctor regularly</li>
+<li><span class="list-icon">•</span> Managing your diabetes is the best way to protect your eyes</li>
+</ul>
+<div class="explanation-section"><h3 class="section-header">DETAILED CONFIDENCE SCORES</h3>
+<p class="confidence-text">How confident the computer is for each possibility:</p>
+<p class="explanation-paragraph">No DR................................... 100.0%</p>
+<p class="explanation-paragraph">Mild....................................   0.0%</p>
+<p class="explanation-paragraph">Moderate................................   0.0%</p>
+<p class="explanation-paragraph">Severe..................................   0.0%</p>
+<p class="explanation-paragraph">Proliferative DR........................   0.0%</p>
+</div>
+
+        </div>
+    </div>
+    
+    <div class="important-note">
+        <strong>⚠️ IMPORTANT REMINDERS</strong>
+        <ul>
+            <li><strong>This is a screening tool, not a final diagnosis.</strong> Only a trained eye doctor can give you a complete diagnosis.</li>
+            <li><strong>See an eye doctor</strong> for a thorough examination, especially if the screening shows any signs of disease.</li>
+            <li><strong>Keep managing your diabetes</strong> with your regular doctor. Good blood sugar control is the best way to protect your eyes.</li>
+            <li><strong>Regular screenings are important.</strong> Even if results are good, come back for regular check-ups.</li>
+            <li><strong>Questions?</strong> Ask the nurse or healthcare worker who performed your screening.</li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        <p>This report was generated by an AI-assisted diabetic retinopathy screening system.</p>
+        <p>For medical advice and treatment, please consult a qualified ophthalmologist.</p>
+    </div>
+</body>
+</html>

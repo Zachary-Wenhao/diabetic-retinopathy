@@ -1,0 +1,34 @@
+
+SUMMARY: LOCAL EXPLANATIONS GENERATED
+======================================================================
+
+Generated detailed reports for 2 patients:
+
+
+Patient 1:
+  ID: 2cf18033da31
+  Predicted: Class 0 (No DR)
+  Confidence: 100.0%
+  Actual: Class 0 (No DR)
+  Match: ✓ Correct
+
+Patient 2:
+  ID: 82bb8a01935f
+  Predicted: Class 2 (Moderate)
+  Confidence: 96.1%
+  Actual: Class 4 (Proliferative DR)
+  Match: ✗ Incorrect
+
+
+Files Generated Per Patient:
+  • patient#_explanation_viz.png - Main Grad-CAM visualizations
+  • patient#_multiclass_gradcam.png - Multi-class Grad-CAM analysis
+  • patient#_confidence.png - Confidence chart for all classes
+  • patient#_simple_overlay.png - Patient-friendly heatmap
+  • patient#_explanation.txt - Plain language explanation
+  • patient#_report.html - Complete HTML report
+
+
+All files saved to: ../outputs/patient_reports/
+
+======================================================================

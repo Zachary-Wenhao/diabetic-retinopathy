@@ -1,0 +1,37 @@
+
+GUIDANCE FOR NURSES AND VOLUNTEERS (8th Grade Level)
+======================================================================
+
+WHEN TO TRUST THE MODEL:
+
+✓ HIGH CONFIDENCE (90% or higher)
+  - The model is right 80% of the time
+  - These results are usually reliable
+  - Still recommend follow-up based on the diagnosis
+
+⚠ MEDIUM CONFIDENCE (70-90%)
+  - The model is right 51% of the time
+  - Use extra caution with these results
+  - Consider getting a second opinion or referral
+
+⚠️ LOW CONFIDENCE (Below 70%)
+  - The model is less sure about these results
+  - ALWAYS have an eye specialist review these cases
+  - Don't make decisions based on these results alone
+
+WHAT THE MODEL IS GOOD AT:
+• Finding severe and advanced eye disease (Classes 3-4)
+• Identifying healthy eyes with no disease (Class 0)
+
+WHAT THE MODEL STRUGGLES WITH:
+• Telling the difference between mild and moderate disease
+• Borderline cases that are between two levels
+• Poor quality or dark images
+
+IMPORTANT REMINDERS:
+• This is a screening tool, not a diagnosis
+• ALL positive results should be referred to an eye specialist
+• When in doubt, ALWAYS refer the patient
+• Image quality matters - retake if image is blurry or dark
+
+======================================================================

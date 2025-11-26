@@ -1,0 +1,64 @@
+
+GLOBAL EXPLANATION FOR HANDBOOK (8th Grade Level)
+======================================================================
+
+HOW THE COMPUTER LEARNS TO READ EYE PHOTOS
+-------------------------------------------
+
+TRAINING DATA:
+• The computer learned from 2,929 real eye photos
+• These photos came from patients who were around 49 years old on average
+• About half were men and half were women
+• Doctors had already looked at each photo and labeled it
+
+WHAT THE COMPUTER LEARNED:
+• It learned to recognize 5 different levels of eye disease
+• It studied patterns in the blood vessels at the back of your eye
+• It learned what healthy eyes look like vs. sick eyes
+
+WHERE THE COMPUTER LOOKS:
+• The model focuses on blood vessels and their patterns
+• It looks for dark spots, which can be bleeding
+• It checks for red areas, which can be swelling
+• It examines the overall structure of blood vessels
+
+WHAT MAKES EYES DIFFERENT:
+
+Healthy Eyes (Class 0: 1432 photos):
+• Clear, organized blood vessels
+• No dark spots or bleeding
+• Uniform color across the eye
+
+Mild Disease (Class 1: 307 photos):
+• Small changes starting to appear
+• Tiny spots that might indicate early problems
+• Blood vessels still mostly normal
+
+Moderate Disease (Class 2: 800 photos):
+• More visible changes
+• Blood vessels showing damage
+• Dark spots becoming more obvious
+
+Severe Disease (Class 3: 156 photos):
+• Significant blood vessel damage
+• Multiple dark spots (bleeding)
+• Clear signs of serious problems
+
+Advanced Disease (Class 4: 234 photos):
+• Extensive damage throughout the eye
+• New, abnormal blood vessels growing
+• High risk of vision loss
+
+WHY THIS MATTERS FOR SCREENING:
+• The computer can quickly check photos in areas without eye doctors
+• It helps identify people who need to see a specialist right away
+• It's not perfect, so human doctors still need to confirm
+• Think of it as a helpful first check, not the final answer
+
+IMPORTANT REMINDERS:
+• This tool is for screening only, not diagnosis
+• A real eye doctor must always review positive cases
+• The computer works best with clear, well-lit photos
+• Poor quality photos may give wrong results
+
+======================================================================

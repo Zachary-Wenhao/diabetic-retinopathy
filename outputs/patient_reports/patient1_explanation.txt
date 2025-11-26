@@ -1,0 +1,63 @@
+EYE SCREENING REPORT
+============================================================
+
+Patient Information:
+• Age: 65 years old
+• Gender: Female
+• Screening Date: Today
+
+WHAT WE FOUND
+------------------------------------------------------------
+
+✓ Good News: No Signs of Eye Disease Found
+
+The computer screening tool looked at your eye photo carefully. It checked your blood vessels and other parts of your eye. Everything looks healthy and normal.
+
+HOW SURE IS THE COMPUTER?
+------------------------------------------------------------
+
+The computer is 99% confident about this result.
+
+This is a high confidence score. The computer is very sure about what it saw.
+
+HOW THE COMPUTER ANALYZES YOUR EYE
+------------------------------------------------------------
+
+The computer uses a technique called 'Grad-CAM' to highlight areas that help it make decisions. This shows which parts of your eye it focused on:
+
+• Blood vessels and their patterns
+• Areas that might show bleeding or fluid leakage
+• Changes in the retina structure
+• Overall eye health indicators
+
+The colored highlight areas in your report show where the computer 'looked' most carefully.
+
+WHAT TO DO NEXT
+------------------------------------------------------------
+
+✓ Come back for another screening in 1 year
+✓ Keep managing your diabetes with your regular doctor
+✓ Tell your doctor right away if your vision changes
+✓ Control your blood sugar, blood pressure, and cholesterol
+
+IMPORTANT REMINDERS
+------------------------------------------------------------
+
+• This is a SCREENING tool, not a final diagnosis
+• Only a real eye doctor can give you a complete diagnosis
+• This tool helps find people who need to see a specialist
+• Even if the result is good, see an eye doctor regularly
+• Managing your diabetes is the best way to protect your eyes
+
+DETAILED CONFIDENCE SCORES
+------------------------------------------------------------
+
+How confident the computer is for each possibility:
+
+  No DR................................... 100.0%
+  Mild....................................   0.0%
+  Moderate................................   0.0%
+  Severe..................................   0.0%
+  Proliferative DR........................   0.0%
+
+============================================================

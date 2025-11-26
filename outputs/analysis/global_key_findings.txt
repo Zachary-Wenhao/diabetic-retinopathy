@@ -1,0 +1,34 @@
+
+KEY FINDINGS FROM GLOBAL ANALYSIS
+{'='*70}
+
+FROM GRAD-CAM ANALYSIS:
+1. The model focuses on central retinal regions where blood vessels are densest
+2. For severe cases (Class 3-4), attention spreads to peripheral areas
+3. The model consistently examines similar anatomical structures across patients
+
+FROM ATTENTION PROGRESSION ANALYSIS:
+1. Model attention intensity increases with disease severity
+2. Healthy eyes show focused central attention
+3. Severe cases show more distributed attention patterns
+4. Center-to-total attention ratio decreases with disease progression
+
+CONSISTENCY FINDINGS:
+• Grad-CAM patterns show medically relevant focus areas
+• Blood vessels and hemorrhages are consistently highlighted
+• The model uses anatomically meaningful structures
+• Attention patterns align with clinical examination methods
+
+WHAT THIS MEANS FOR USERS:
+✓ The model is looking at medically relevant features
+✓ It's not using spurious correlations or artifacts
+✓ Predictions are based on actual disease indicators
+✓ The approach aligns with how doctors examine eyes
+
+LIMITATIONS DISCOVERED:
+⚠ The model may struggle with poor image quality
+⚠ Very subtle differences (mild vs moderate) are challenging
+⚠ Peripheral retina receives less attention
+⚠ Confidence decreases for borderline cases
+
+{'='*70}

@@ -1,0 +1,27 @@
+
+KEY INSIGHTS FOR HANDBOOK (8th Grade Reading Level)
+============================================================
+
+ABOUT THE TRAINING DATA:
+
+• The computer learned from 2929 eye photos of real patients.
+
+• These patients ranged from 18 to 80 years old.
+  Most patients were around 49 years old.
+
+• About half were men and half were women.
+
+• Out of 2929 patients:
+  - 1432 had healthy eyes (no disease)
+  - 1497 had some level of eye disease
+
+• The computer saw examples of all 5 levels of disease:
+  - No disease
+  - Mild disease  
+  - Moderate disease
+  - Severe disease
+  - Advanced disease
+
+• This training helps the computer recognize patterns in new eye photos.
+
+============================================================
